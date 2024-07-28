@@ -15,6 +15,7 @@ export default async function Home() {
     redirect('/pages/exam')
   }
 
+ 
   return (
 
     <div>
