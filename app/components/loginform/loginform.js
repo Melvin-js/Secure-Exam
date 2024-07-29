@@ -20,6 +20,7 @@ export default function LoginForm() {
         } else if (element.msRequestFullscreen) { // IE/Edge
             element.msRequestFullscreen();
         }
+        
     };
     
     
