@@ -8,6 +8,7 @@ import FullscreenDialog from '@/app/components/screenHandler/FullscreenDialog';
 import FullscreenWrapper from '@/app/components/screenHandler/FullscreenWrapper';
 import PageUnloadHandler from '@/app/components/screenHandler/PageUnloadHandler';
 import LogoutOnLoad from '@/app/components/screenHandler/LogoutOnLoad';
+import DisableRightClick from '@/app/components/screenHandler/DisableRightClick';
 
 export default async function Exam() {
 
@@ -19,6 +20,7 @@ export default async function Exam() {
   
   return (
     <div> 
+      <DisableRightClick />
       <LogoutOnLoad />
       <FullscreenWrapper session={session} />
       <PageUnloadHandler />

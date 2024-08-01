@@ -6,6 +6,7 @@ import Navbar from './components/navbar/navbar';
 import styles from './page.module.css'
 import LoginForm from './components/loginform/loginform.js';
 import { redirect } from 'next/navigation';
+import DisableRightClick from './components/screenHandler/DisableRightClick';
 
 export default async function Home() {
 
@@ -19,6 +20,7 @@ export default async function Home() {
   return (
 
     <div>
+      <DisableRightClick />
       <Navbar />
       <div className={styles.container}>
  
